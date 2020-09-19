@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#game {
+  
+    width: 375px;
+    height: 600px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+#character {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 10000;
+}
+.block{
+    width: 375px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#btn1 {
+    text-transform: uppercase;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+#btn2 {
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+#btn1:active {
+    background-color: red;
+}
+
+#btn2:active {
+    background-color: red;
+}
+h3{
+    text-align: center;
+
+}
